@@ -14,5 +14,5 @@ output "vpc_main_route_table_id" {
 
 output "public_subnets" {
   value       = module.vpc.public_subnets
-  description = "The ID of VPC."
+  description = "The public subnets in VPC."
 }
